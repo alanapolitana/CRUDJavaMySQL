@@ -269,14 +269,14 @@ try{
     }//GEN-LAST:event_btnTraerActionPerformed
 
     }
-    public static void main(String args[]) {
+//    public static void main(String args[]) {
        
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Form().setVisible(true);
-            }
-        });
-    }
+  //      java.awt.EventQueue.invokeLater(new Runnable() {
+    //        public void run() {
+      //          new Form().setVisible(true);
+        //    }
+      //  });
+    //}
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTable TablaDatos;

@@ -18,7 +18,7 @@ public class Main{
     public Connection establecerConeccion(){
     try{
         conectar = DriverManager.getConnection(cadena,usuario,contraseña);
-        JOptionPane.showMessageDialog(null,"Se genero la conexion");
+       // JOptionPane.showMessageDialog(null,"Se genero la conexion");
                 }
     catch(Exception e){
         JOptionPane.showMessageDialog(null,"Se genero la conexion" + e);
@@ -31,5 +31,7 @@ public class Main{
     public static void main(String[] args){
 Main app = new Main();
 app.establecerConeccion();
+Form form = new Form();
+form.setVisible(true);
 }
 }
