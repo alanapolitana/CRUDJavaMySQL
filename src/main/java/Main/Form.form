@@ -161,7 +161,7 @@
                   <Component id="btnModificar" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                   <Component id="btnEliminar" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="32" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -183,7 +183,7 @@
       <SubComponents>
         <Component class="javax.swing.JButton" name="btnAgregar">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Crear Registro"/>
+            <Property name="text" type="java.lang.String" value="CREAR REGISTRO"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarActionPerformed"/>
@@ -191,17 +191,20 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnTraer">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Modificar Registro"/>
+            <Property name="text" type="java.lang.String" value="MOSTRAR REGISTROS"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTraerActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnModificar">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Actualizar Registro"/>
+            <Property name="text" type="java.lang.String" value="ACTUALIZAR REGISTRO"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="btnEliminar">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Eliminar Registro"/>
+            <Property name="text" type="java.lang.String" value="ELIMINAR REGISTRO"/>
           </Properties>
         </Component>
       </SubComponents>
