@@ -419,9 +419,14 @@ public class Form extends javax.swing.JFrame {
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
         String nombre = nombreCarrera.getText();
+       
+         if (nombre.isEmpty()) {
+        JOptionPane.showMessageDialog(null, "Debe ingresar el nombre de la carrera antes de agregar un nuevo registro");
+    } else {
         agregar(nombre);
         mostrar();
         nuevo();
+    }
     }//GEN-LAST:event_btnAgregarActionPerformed
 
     private void idCarreraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_idCarreraActionPerformed
